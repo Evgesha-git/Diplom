@@ -1,0 +1,41 @@
+.login_block{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.login_backgraund{
+    width: 100%;
+    height: 100%;
+    background: #62626270;
+    position: absolute;
+    filter: blur(1.6px);
+    /*filter: url(blur.svg#blur);*/
+    z-index: 1;
+}
+
+.login_main{
+    position: relative;
+    left: 45%;
+    top: 25%;
+    z-index: 2;
+    width: 200px;
+    height: 200px;
+    border: 1px solid;
+    background: #fff;
+}
+
+.login_clouse{
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    border: 1px solid;
+    border-radius: 16px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background:gainsboro;
+}

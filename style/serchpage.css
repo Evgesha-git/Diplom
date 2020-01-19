@@ -1,0 +1,57 @@
+.content-serch{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.serch-block-item{
+    width: 80%;
+}
+
+.item{
+    height: 100px;
+    display: flex;
+    border: 1px solid;
+    margin: 2px;
+}
+
+.image{
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 5px;
+}
+
+.serchBlockItem{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6em;
+}
+
+.nameDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.name, .nameProd{
+    margin: 4px;    
+}
+
+.descAndPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.descriptionMini{
+    margin: 12px 40px 10px 12px;
+}
+
+.price{
+    align-self: end;
+    margin: 0 24px 15px;
+    font-size: 24px;
+    color: #3f87e3;
+}
